@@ -1,3 +1,9 @@
+@media all and (max-width:768px) {
+    .lien {
+      display: flex;
+      flex-direction: column;
+    }
+}
 .lien {
     display: flex;
     background-color: black;
@@ -15,10 +21,7 @@
 header{
     display: inline-flex;
 }
-.image {
-    height :auto; width: max-content;
-    margin-block-end: inherit;
-}
+
 .span1 {
     font-size: 28px;
     margin-left: 390px;
@@ -48,8 +51,8 @@ h1 {
     padding-right: 223px;
     margin-right: 00px;
     float: right;
-
 }
+
 html {
     margin : 10px auto;
     width : 1126px;
@@ -57,4 +60,31 @@ html {
 
 .image2 {
     position: relative; left: 2%;
+}
+
+@media all and (max-width:768px) {
+
+.span2{display: none;}
+}
+html {
+    font-size: 100%;
+}
+@media all and (max-width: 768px) {
+    body, p, h1, h2, .span1, .lien {
+         font-size: 87%;
+   }
+}
+
+@media all and (max-width: 768px) {
+    .image, .image2
+{
+     max-width: 100%;
+     height: auto;
+    }
+}
+@media all and (max-width: 768px) {
+    html {
+        margin : 10px auto;
+        width : 768px;
+    }
 }
