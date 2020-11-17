@@ -55,4 +55,6 @@ html {
     width : 1126px;
 }
 
-
+.image2 {
+    position: relative; left: 2%;
+}
